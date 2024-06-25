@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: large;
+  background-image: url("assets/images/nb.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+header nav ul li {
+  float: center;
+  display: inline;
+  padding: 0 20px 0 20px;
+  background-color: white;
+  border-radius: 3px;
+  opacity: 0.8;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  background-color: ghostwhite;
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
+  overflow: hidden;
+  width: 30%;
+}
+
+.product img {
+  max-width: 50%;
+  height: auto;
+  flex: 2;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 1rem;
+  flex: 1;
+}
+
+.product-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-info p {
+  margin-bottom: 1rem;
+}
+
+.add-to-cart {
+  background-color: #ffa500;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #ffa500;
+}
+.btn {
+  background-color: #303030;
+  border-radius: 10px;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #303030;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}

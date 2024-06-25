@@ -1,0 +1,48 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-image: url(assets/images/nikee.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.btn.btn-primary.enabled {
+  margin-top: 30%;
+  margin-left: 38%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color: black;
+  background-color: orange;
+}
+
+.btn.btn-secondary.enabled {
+  margin-top: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color: black;
+  background-color: orange;
+}
+
+h2 {
+  text-align: left;
+  text-shadow: 10px;
+  color: black;
+}
+
+.btn.btn-primary {
+  border-color: #36454f;
+  background-color: #36454f;
+  color: white;
+}
+
+footer {
+  text-align: center;
+}
